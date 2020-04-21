@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="img/logo.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/668f7e5cfa.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/brands.css">
+    <link rel="stylesheet" href="css/solid.css">
+    <link rel="stylesheet" href="css/regular.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Sample Job Portal</title>
+</head>
+
+<body>
+
+    <!--------------------------- Header --------------------------->
+    <section id="head-er">
+        <div class="menu">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo.png" width="60px" height="60px" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">ALL JOBS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">COMPANIES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">WALK-INS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#login">LOGIN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="register.html">REGISTER</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+    </section>
+    <!-- register -->
+    <div class="container text-center mt-4">
+        <p class="reg-log">Register</p>
+        <form action="/action_page.php">
+            <div class="form-group mt-4">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email address:</label>
+                <input type="email" class="form-control" placeholder="Enter email" id="email">
+            </div>
+
+            <div class="form-group">
+                <label for="pwd">Password:</label>
+                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                </label>
+            </div>
+            <button type="submit" class="btn btn-primary mb-5">Register</button>
+        </form>
+    </div>
+
+    <!--log-in -->
+
+    <div class="container text-center" id="login">
+        <p class="reg-log">Log-in</p>
+        <form action="/action_page.php">
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="pwd">Password:</label>
+                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox" name="remember"> Remember me
+                </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Log-in</button>
+        </form>
+    </div>
+
+    <!-- footer -->
+    <section id="footer" class="text-center">
+
+        <a href="mailto:shailaja.sabhapathi@gmail.com" data-toggle="tooltip" title="Email!" target="_blank"><i class="fas fa-envelope fa-2x"></i></a>
+        <a href="https://www.instagram.com/shailu_sabhapathi/" data-toggle="tooltip" title="Instagram!" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="https://github.com/shailaja-sabhapathi" data-toggle="tooltip" title="Github!" target="_blank"><i class="fab fa-github fa-2x"></i></a>/
+        <a href="#" data-toggle="tooltip" title="Register!" target="_blank"><i class="fas fa-user-plus fa-2x"></i></a>
+        <a href="#" data-toggle="tooltip" title="Sign-in!" target="_blank"><i class="fas fa-sign-in-alt fa-2x"></i></a>
+        <hr>
+        <p>&copy;Copyright 2020, Made with<i class="fas fa-heart"></i>by Shailaja, All Rights Reserved</p>
+
+    </section>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <script src="javascript/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+
+    </script>
+
+
+</body>
+
+</html>

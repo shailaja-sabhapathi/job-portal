@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/*register-login*/
+
+.reg-log {
+    font-size: 30px;
+    color: teal;
+    font-weight: bold;
+}
+
+
+
+.nav-link {
+    font-size: 15px;
+    color: black !important;
+    margin: 2px;
+}
+
+.navbar-nav {
+    text-align: center;
+}
+
+.navbar-toggler {
+    outline: none;
+    border: none;
+}
+
+
+#banner {
+    height: 80vh;
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    top: 50px;
+}
+
+h3 {
+    margin-bottom: 50px;
+    color: blue;
+    font-weight: 600;
+
+}
+
+
+.find-job {
+    padding: 30px 0;
+    margin: 60px 6% 50px;
+    background-color: black;
+    opacity: 0.4
+}
+
+.find-job .form-control {
+    max-width: 250px;
+    display: inline-flex;
+    margin: 10px 5px;
+    box-shadow: none !important;
+    border: none !important;
+
+
+}
+
+.find-job .btn-primary {
+    border-radius: 0;
+    border: none;
+    display: inline-flex;
+    box-shadow: none;
+    margin: 5px;
+    padding: 5px 20px;
+
+}
+
+#button {
+    margin: auto;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: green;
+    font-size: 18px;
+}
+
+#re-cruiters {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+#re-cruiters {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#re-cruiters img {
+    max-width: 100px;
+    margin: 10px 20px;
+}
+
+/*recent job postings*/
+#jobs {
+    background-color: #DCDCDC;
+    padding: 20px 0;
+
+}
+
+h5 {
+    text-align: center;
+    font-weight: 600;
+    color: black;
+}
+
+.company-info {
+    box-shadow: 0 2px 70px 0 rgba(110, 130, 208, .18);
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+}
+
+.job-updates {
+    background: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+
+.job-updates .fa,
+.fa-walking {
+    margin-top: 5px;
+    margin-right: 10px;
+    color: #77d1b1;
+}
+
+.job-updates small {
+    background: #efefef;
+    padding: 1px 5px;
+    margin: 0 5px;
+}
+
+.job-updates p {
+    margin-bottom: 0;
+
+}
+
+.job-updates a {
+    text-decoration: none !important;
+    color: red;
+
+}
+
+.apply-btn {
+    height: 40px;
+    padding: 7px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.apply-btn .btn-primary {
+    color: white;
+    padding: 0 30px;
+    float: right;
+    box-shadow: none !important;
+    border: 1px solid black;
+}
+
+.apply-btn .btn-primary:hover {
+    background-color: green;
+    border: none !important;
+
+}
+
+.page-links li {
+    height: 25px;
+    width: 25px;
+    list-style: none;
+    display: inline-block;
+    cursor: pointer;
+
+}
+
+.page-links li:hover,
+.active {
+    color: white;
+    background-color: lawngreen;
+}
+
+.left-arrow,
+.right-arrow {
+    color: darkblue;
+}
+
+
+/*walkins*/
+
+#walkins {
+    background-color: #DCDCDC;
+    padding: 20px 0;
+}
+
+
+
+/*stats*/
+#stats {
+    padding: 100px 0;
+
+}
+
+.head {
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: indigo;
+}
+
+.stat-box {
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 2px 40px 0 rgba(110, 130, 208, .18);
+}
+
+.stat-box .fa {
+    font-size: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
+
+/*Mobile app download*/
+
+#mob-app-ban {
+    background-image: linear-gradient(to right, black, grey)
+}
+
+#mob-app-ban h1 {
+    margin-top: 20px;
+    color: white;
+}
+
+#mob-app-ban img {
+    width: 150px;
+    margin: 50px 0;
+
+}
+
+/*footer*/
+
+#footer {
+    background: #f8f9fd;
+    padding: 20px 10px 8px;
+
+}
+
+#footer p {
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+
+/*icons*/
+
+.fas,
+.fab {
+    margin: 10px;
+
+}
+
+.fa-heart {
+    color: red;
+}
+
+.fa-envelope {
+    color: black;
+}
+
+.fa-envelope:hover {
+    color: darkblue;
+}
+
+
+.fa-instagram {
+    color: purple;
+}
+
+.fa-instagram:hover {
+    color: deeppink;
+}
+
+.fa-github {
+    color: #AD5C51;
+}
+
+.fa-github:hover {
+    color: #211F1F;
+}
+
+.fa-user-plus {
+    color: orangered;
+
+}
+
+.fa-user-plus:hover {
+    color: darkgreen;
+
+}
+
+.fa-sign-in-alt {
+    color: darkmagenta;
+}
+
+.fa-sign-in-alt:hover {
+    color: maroon;
+}
