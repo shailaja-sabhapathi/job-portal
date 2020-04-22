@@ -262,6 +262,15 @@ h5 {
 
 
 /*icons*/
+#name {
+    color: deeppink;
+}
+
+#name:hover {
+    color: blue;
+    font-size: 1rem;
+
+}
 
 .fas,
 .fab {
@@ -314,4 +323,13 @@ h5 {
 
 .fa-sign-in-alt:hover {
     color: maroon;
+}
+
+.float-right {
+    background-color: pink;
+}
+
+.float-right:hover {
+    background-color: black;
+    color: white;
 }
